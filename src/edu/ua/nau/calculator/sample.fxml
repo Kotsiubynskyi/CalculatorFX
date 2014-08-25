@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?scenebuilder-background-color 0xff2633ff?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<AnchorPane fx:id="anchorPane" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="377.0" prefWidth="317.0" styleClass="anchorPane"
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+            fx:controller="edu.ua.nau.calculator.Controller">
+    <children>
+        <GridPane layoutX="14.0" layoutY="76.0" prefHeight="287.0" prefWidth="289.0">
+            <children>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                    <children>
+                        <Button focusTraversable="false" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit" text="0">
+                            <font>
+                                <Font size="18.0" fx:id="x1"/>
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="00"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="."/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                    <children>
+                        <Button fx:id="calculate" focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0"
+                                mnemonicParsing="false" onMouseClicked="#calculate" prefHeight="46.0" prefWidth="65.0"
+                                styleClass="sign" text="="/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit" text="1">
+                            <stylesheets>
+                                <URL value="@style.css"/>
+                            </stylesheets>
+                        </Button>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="2"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="3"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="sign" text="+"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="4"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="5"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="6"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="sign" text="-"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="7"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="8"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="digit"
+                                text="9"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="sign" text="x"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="sign" text="("/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="sign" text=")"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="0">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#inSign" prefHeight="46.0" prefWidth="65.0" styleClass="sign" text="/"/>
+                    </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                    <children>
+                        <Button focusTraversable="false" font="$x1" layoutX="4.0" layoutY="11.0" mnemonicParsing="false"
+                                onMouseClicked="#clear" prefHeight="46.0" prefWidth="65.0" styleClass="clear" text="C"/>
+                    </children>
+                </AnchorPane>
+            </children>
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES"/>
+                <RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="58.0" vgrow="SOMETIMES"/>
+            </rowConstraints>
+        </GridPane>
+        <TextField fx:id="textField" alignment="CENTER_RIGHT" blendMode="SCREEN" disable="false" editable="false"
+                   focusTraversable="false" layoutX="14.0" layoutY="14.0" prefHeight="62.0" prefWidth="289.0"
+                   promptText="" styleClass="textField" text=""/>
+    </children>
+    <stylesheets>
+        <URL value="@style.css"/>
+    </stylesheets>
+</AnchorPane>
