@@ -1,13 +1,13 @@
 CalculatorFX
 
 	Description
-This app is simple calculator written using with help of Java GUI platform - JavaFX.
+This app is simple calculator written with help of Java GUI platform - JavaFX.
 Due to possibility to write GUI layout in xml files general readability of code is great.
 In addition to this I used ScriptEngine (Since 1.6) to perform all arithmetical calculations.
-Finally code is very short.
+Final code is very short.
 
 	Launching
-You can run this app either using cmd(with some tricky way) or simply with your favourite IDE.
+You can run this app either using cmd(with some tricky way that I don`t know) or simply with your favourite IDE.
 There is another way. You can also run this app by packaging it into exe. Here how you can do it.
 	1) You need to have installed JDK 7u6 or higher.
 	2) Find tool JDK\bin\javafxpackager.exe.
